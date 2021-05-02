@@ -22,7 +22,7 @@ Bot = Client(Config.SESSION_NAME, bot_token=Config.BOT_TOKEN, api_id=Config.API_
 async def start(bot, cmd):
     await cmd.reply_text("HI, I am Cloud Uploads Manager Bot!\n\nI can Do a Lot of Things, Check > /help <",
                          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer",
-                                                                                  url="https://t.me/AbirHasan2005"),
+                                                                                  url="https://t.me/Aditya1190"),
                                                              InlineKeyboardButton("Support Group",
                                                                                   url="https://t.me/linux_repo")], [
                                                                 InlineKeyboardButton("Bots Channel",
