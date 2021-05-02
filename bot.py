@@ -24,11 +24,11 @@ async def start(bot, cmd):
                          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer",
                                                                                   url="https://t.me/Aditya1190"),
                                                              InlineKeyboardButton("Support Group",
-                                                                                  url="https://t.me/linux_repo")], [
-                                                                InlineKeyboardButton("Bots Channel",
-                                                                                     url="https://t.me/Discovery_Updates")],
+                                                                                  url="https://t.me/LatestNetflixMovie2021")], [
+                                                                InlineKeyboardButton("Bots",
+                                                                                     url="http://t.me/FileToCloudzBot")],
                                                             [InlineKeyboardButton("Bot's Source Code",
-                                                                                  url="https://github.com/AbirHasan2005/Cloud-UPManager-Bot")]]))
+                                                                                  url="https://t.me/Aditya1190")]]))
 
 
 @Bot.on_message(filters.command("help"))
@@ -39,8 +39,8 @@ async def help(bot, cmd):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                 InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
+                [InlineKeyboardButton("Support Group", url="https://t.me/LatestNetflixMovie2021"),
+                 InlineKeyboardButton("Developer", url="https://t.me/Aditya1190")],
                 [InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
                 [InlineKeyboardButton("Delete Streamtape File (Admin Only)",
                                       switch_inline_query_current_chat="!stdel ")],
@@ -87,8 +87,8 @@ async def answer(bot, query: InlineQuery):
                 thumb_url="https://i.imgur.com/6jZsMYG.png",
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                         InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
+                        [InlineKeyboardButton("Support Group", url="https://t.me/LatestNetflixMovie2021"),
+                         InlineKeyboardButton("Developer", url="https://t.me/Aditya1190")],
                         [InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
                         [InlineKeyboardButton("Delete Streamtape File (Admin Only)",
                                               switch_inline_query_current_chat="!stdel ")],
@@ -123,8 +123,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/LatestNetflixMovie2021")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/Aditya1190")]
                         ]
                     )
                 )
@@ -157,7 +157,7 @@ async def answer(bot, query: InlineQuery):
                                 title="!stdel [file_link]",
                                 description="Put File Link to Delete Streamtape File!",
                                 input_message_content=InputTextMessageContent(
-                                    message_text="This for Deleting Streamtape File via File Link.\n\n**Format:** `@Cloud_UPManager_Bot !stdel `__[file_link]__",
+                                    message_text="This for Deleting Streamtape File via File Link.\n\n**Format:** `@FileToCloudzBot !stdel `__[file_link]__",
                                     parse_mode="Markdown",
                                     disable_web_page_preview=True
                                 ),
@@ -203,7 +203,7 @@ async def answer(bot, query: InlineQuery):
                                              input_message_content=InputTextMessageContent(
                                                  message_text=f"Something Went Wrong!\n\n**Error:** `{err}`"),
                                              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Support Group",
-                                                                                                      url="https://t.me/linux_repo")]]))
+                                                                                                      url="https://t.me/LatestNetflixMovie2021")]]))
                 )
 
         try:
@@ -250,7 +250,7 @@ async def answer(bot, query: InlineQuery):
                             title="!godel [file_link] [AdminCode]",
                             description="Put File Link to Delete GoFile.io File!",
                             input_message_content=InputTextMessageContent(
-                                message_text="This for Deleting GoFile.io File via File Link.\n\n**Format:** `@Cloud_UPManager_Bot !godel `__[file_link] [AdminCode]__",
+                                message_text="This for Deleting GoFile.io File via File Link.\n\n**Format:** `@FileToCloudzBot !godel `__[file_link] [AdminCode]__",
                                 parse_mode="Markdown",
                                 disable_web_page_preview=True
                             ),
@@ -296,7 +296,7 @@ async def answer(bot, query: InlineQuery):
                                          input_message_content=InputTextMessageContent(
                                              message_text=f"Something Went Wrong!\n\n**Error:** `{err}`"),
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]))
+                                             [[InlineKeyboardButton("Support Group", url="https://t.me/LatestNetflixMovie2021")]]))
             )
 
         try:
@@ -322,8 +322,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/LatestNetflixMovie2021")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/Aditya1190")]
                         ]
                     )
                 )
@@ -345,7 +345,7 @@ async def answer(bot, query: InlineQuery):
                         title="!strename [token] [new_filename]",
                         description="Put File Token & New File Name to Rename Streamtape File!",
                         input_message_content=InputTextMessageContent(
-                            message_text="This for Renaming Streamtape File via File Token & New File Name.\n\n**Format:** `@Cloud_UPManager_Bot !strename `__[token] [new_filename]__",
+                            message_text="This for Renaming Streamtape File via File Token & New File Name.\n\n**Format:** `@FileToCloudzBot !strename `__[token] [new_filename]__",
                             parse_mode="Markdown",
                             disable_web_page_preview=True
                         ),
@@ -419,8 +419,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/LatestNetflixMovie2021")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/Aditya1190")]
                         ]
                     )
                 )
@@ -439,7 +439,7 @@ async def answer(bot, query: InlineQuery):
                     title="!strmdel [token]",
                     description="Put Streamtape Remote Token to remove Remote from Streamtape Account!",
                     input_message_content=InputTextMessageContent(
-                        message_text="This for Removing Remote URL from Streamtape Account via Remote Token.\n\n**Format:** `@Cloud_UPManager_Bot !strmdel `__[token]__",
+                        message_text="This for Removing Remote URL from Streamtape Account via Remote Token.\n\n**Format:** `@FileToCloudzBot !strmdel `__[token]__",
                         parse_mode="Markdown",
                         disable_web_page_preview=True
                     ),
@@ -515,7 +515,7 @@ async def answer(bot, query: InlineQuery):
                     title="!stremote [download_url]",
                     description="Put Direct Download Link to Upload to Streamtape!",
                     input_message_content=InputTextMessageContent(
-                        message_text="This for Uploading to Streamtape via Any Direct Download Link.\n\n**Format:** `@Cloud_UPManager_Bot !stremote `__[download_url]__",
+                        message_text="This for Uploading to Streamtape via Any Direct Download Link.\n\n**Format:** `@FileToCloudzBot !stremote `__[download_url]__",
                         parse_mode="Markdown",
                         disable_web_page_preview=True
                     ),
@@ -595,7 +595,7 @@ async def answer(bot, query: InlineQuery):
                     title="!show [token]",
                     description="Put Streamtape Remote Access Token to Get Current Status of Streamtape Remote!",
                     input_message_content=InputTextMessageContent(
-                        message_text="This for Getting Current Status of Streamtape Remote via Streamtape Remote Access Token. \n\n**Format:** `@Cloud_UPManager_Bot !show `__[token]__",
+                        message_text="This for Getting Current Status of Streamtape Remote via Streamtape Remote Access Token. \n\n**Format:** `@FileToCloudzBot !show `__[token]__",
                         parse_mode="Markdown",
                         disable_web_page_preview=True
                     ),
