@@ -25,7 +25,7 @@ async def start(bot, cmd):
                                                                                   url="https://t.me/Aditya1190"),
                                                              InlineKeyboardButton("Support Group",
                                                                                   url="https://t.me/LatestNetflixMovie2021")], [
-                                                                InlineKeyboardButton("Bots",
+                                                                InlineKeyboardButton("Bot",
                                                                                      url="http://t.me/FileToCloudzBot")],
                                                             [InlineKeyboardButton("Bot's Source Code",
                                                                                   url="https://t.me/Aditya1190")]]))
